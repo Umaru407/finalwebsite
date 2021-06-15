@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<style type="text/css">
+body {
+	background-color: #E3E1DB;
+}
+body,td,th {
+	font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+<div align="justify"><h1 align="center">報名表單</h1>
+				<form action="pphp.php" method="post">
+				<table width="400" align="center" style="width:400">
+				<tbody><tr>
+					<td>姓名</td>
+					<td><input type="text" name="namef" id="namef"></td>
+				</tr>
+				<tr>
+					<td>性別</td>
+					<td>
+					<input type="radio" name="genderf" value="male"> 男 <br>
+					<input type="radio" name="genderf" value="female"> 女 <br>
+					<input type="radio" name="genderf" value="other"> 其他 <br>
+					</td>
+				</tr>
+				<tr>
+					<td>生日</td>
+					<td><input name="datef" type="date" id="datef"></td>
+				</tr>
+				<tr>
+					<td>電話</td>
+					<td><input type="phone" name="phonef" id="phonef"></td>
+				</tr>			
+				<tr>
+					<td>電子郵件</td>
+					<td><input type="email" name="emailf" id="emailf"></td>
+				</tr>
+				<tr>
+					<td>需要甚麼行程</td>
+					<td>
+					<input type="radio" name="choicef" value="first"> 
+					方案一<br>
+					<input type="radio" name="choicef" value="second"> 
+					方案二<br>
+					</td>
+				</tr>
+				<tr>
+					<td>您要旅遊的日期</td>
+					<td><input name="TravelDatef" type="date" id="TravelDatef"></td>
+				</tr>
+			
+				<tr>
+					<td>人數(1-10)</td>
+					<td><input type="number" name="peoplef" min="1" max="10" id="peoplef"></td>
+				</tr>
+				<tr>
+					<td>
+                    
+                     </td>
+				<td>
+					<input type="submit" value="送出">
+			
+				</td>
+				</tr>	
+				</tbody></table>
+  </form>
+</div></div>
+</body>
+</html>
